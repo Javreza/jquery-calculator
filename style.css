@@ -1,0 +1,82 @@
+body{
+    background-color: #444;
+    margin-top: 150px;
+    font-family: monospace;
+}
+
+p{
+    margin: 0;
+    font-weight: bolder;
+    position: relative;
+    left: 35%;
+}
+
+h1 {
+    margin: 0;
+    font-weight: bolder;
+    position: relative;
+    left: 35%;
+    color: #d1d17d;
+}
+
+.calculator{
+    position: relative;
+    margin: 1em auto;
+    padding: 1em 0;
+    display: inline-block;
+    width: 350px;
+    background-color: gray;
+    border-radius: 25px;
+    box-shadow: 3px 15px 25px 3px #111;
+}
+
+.calc-row{
+    text-align: center;
+}
+
+ .calc-row .screen{
+    color: #212121;
+    display: table;
+    width: 85%;
+    text-align: right;
+    font-size: 2em;
+    min-height: 1.2em;
+    margin-left: 0.5em;
+    padding-right: 0,5em;
+    border: 2px solid #2f804f;
+    background-color: #38965d;
+    font-family: 'VT323', monospace; 
+    box-shadow: none;
+    border-radius: 19.5%;
+}
+
+.calc-row div{
+    text-align: center;
+    border-radius: 10%;
+    color: #c9c7c7;
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid #333335;
+    background-color: #333333;
+    padding: 10px 0;
+    margin: 7px 5px;
+    box-shadow: 2px 2px 1px 1px #222;
+    width: 50px;
+}
+
+.calc-row .button-equals{
+    width: 112px;
+    margin-left: 5px;
+}
+
+.calc-row .button-backspace{
+    color: #9e2020;
+}
+
+.calc-row .button-ce{
+    color: #fcba03;
+}
+
+.calc-row .button-c{
+    color: #151e9e;
+}
